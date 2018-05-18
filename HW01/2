@@ -1,0 +1,24 @@
+(a) Nachname des Spielers
+string, namen bestehen aus buchstaben
+
+(b) Geburtsdatum des Benutzers
+datetime - wie die faust aufs auge
+
+(c) Maximale Anzahl an Siegen in Folge
+int - es gibt keine halben siege
+
+(d) Ob der Spieler schon einmal besiegt wurde
+bool - man kann ich nur einmal schonmal besiegen
+
+(e) Namen der Spieler, welche ignoriert werden sollen
+string[] wie (a), nur halt als array...
+
+(f) Liste von Aktionen, die dem Spieler zur Verfügung stehen (immer fixe Anzahl und nicht veränderbar)
+(string, ...) - tupel, weil fixe größe
+string,
+
+(g) Aktuelles Vermögen (Euro und Cents) des Spielers
+int - begrenzte zahl an dezimalen. int ist effizienter
+
+(h) Spielfarbe des Spielers
+string - HEX wert
