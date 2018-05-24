@@ -2,8 +2,7 @@
 # Modul schaut, ob eine Liste absteigend
 # sortiert angezeigt wird
 
-
-def ListIsSorted(list: list) -> bool:
+def ListIsSorted(list: list) -> bool or None:
     '''
     This function looks if a list is sorted by going
     through every item in the list given by any user
@@ -11,8 +10,8 @@ def ListIsSorted(list: list) -> bool:
     reached if the item before is a greater number than
     the actual one.
 
-    list: Liste von Nummern
-    return: RÃ¼ckgabewert
+    list: List of Numbers
+    return: Boolean or None
     '''
     if len(list) == 0 or len(list) == 1:
         print("Keine Aussage mÃ¶glich")
@@ -21,7 +20,7 @@ def ListIsSorted(list: list) -> bool:
         # return simply the list
         return list
     elif len(list) == 1:
-        # TODO: maybe a good idea without elif?
+        # TODO: fucking great idea without elif?
         a = []
         for b in list:
             b = int(b)
